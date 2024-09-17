@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f4f8, #e2e8f0); /* Fundo com gradiente suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select,
+input[type="color"],
+input[type="file"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    background-color: #fafafa; /* Fundo claro para campos de entrada */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus,
+input[type="color"]:focus,
+input[type="file"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+input[type="button"] {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    display: block;
+    width: 100%;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"] {
+    padding: 0;
+    border: none;
+}
+
+input[type="color"] {
+    width: 60px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}

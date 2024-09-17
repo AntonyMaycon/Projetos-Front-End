@@ -1,0 +1,67 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+p, li{
+    font-family: var(--font-family-one);
+}
+
+i, .fa {
+    font-size: 2.4rem;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-two);
+}
+
+header {
+    background-color: var(--header-color);
+    width: 100%;
+    height: fit-content;
+}
+
+nav {
+    margin: auto;
+    max-width: 1200px;
+    height: fit-content;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 62px;
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 1.4rem;
+}
+
+div.logo-fundacao {
+    height: 66px;
+    width: 160px;
+
+    background-image: url("../assets/images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: var(--footer-color);
+}
+
+footer h5 {
+    font-size: 1.8rem;
+    color: var(--tertiary-text-color);
+}

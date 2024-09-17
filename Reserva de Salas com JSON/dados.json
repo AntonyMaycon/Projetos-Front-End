@@ -1,0 +1,8 @@
+{
+    "reservas": [
+      { "id": "1", "sala": "Informática I"},
+      { "id": "1", "sala": "Informática II"},
+      { "id": "1", "sala": "Informática III"},
+      { "id": "1", "sala": "Informática IV"}
+    ]
+}

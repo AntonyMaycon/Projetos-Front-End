@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <header>Inscrição</header>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Ex.: Maria de Oliveira"/>
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" placeholder="Ex.: maria.oliveira@gmail.com"/>
+        </div>
+
+        <div>
+            <label for="sexo" class="sexo">Sexo:</label>
+
+            <input type="radio" name="sexo" id="feminino"/>
+            <label for="feminino">Feminino</label>
+            
+            <input type="radio" name="sexo" id="masculino"/>
+            <label for="masculino">Masculino</label>
+        </div>
+
+        <div>
+            <label for="curso">Curso:</label>
+            <select id="curso">
+                <option value="HTMLCSS">HTML e CSS</option>
+                <option value="JavaJS">Java e JavaScrpit</option>
+                <option value="C#C++">C# e C++</option>
+                <option value="PHPRuby">PHP e Ruby</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="obs">Descreva o atendimento especial:</label>
+            <textarea id="obs"> </textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" id="termos"/>
+            <label for="termos">Estou de acordo com os termos de serviço.</label>
+        </div>
+        
+        <div>
+            <input type="button" value="Realizar inscrição"/>
+        </div>
+    </form>
+</body>
+</html>

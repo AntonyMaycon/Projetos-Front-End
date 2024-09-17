@@ -1,0 +1,97 @@
+* {
+    max-width: 1200px;
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    background-color: black;
+    color:white;
+    padding: 30px;
+    border-radius: 1%;
+}
+
+.menu {
+    background-color: #E5E5E5;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: right;
+    height: 150px;
+}
+
+.menu-link:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu-link:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    margin-right: 75px;
+    padding-top: 50px;
+}
+
+.menu > ul > li:last-child {
+    margin-right: 0;
+}
+
+.menu-link2::after {
+    content: '\25BC';
+    padding: 5px;
+}
+
+.name-site {
+    color: black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column; 
+    margin-right: 200px;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.apresentacao {
+    background: transparent url("../images/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    color: white;
+    text-align: right;
+    height: 500px;
+    padding-top: 100px;
+}
+
+.titulo {
+    background-color: transparent;
+    font-size: 50px;
+    line-height: 50px;
+    margin-right: 100px;
+}
+
+.subtitulo {
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 75px;
+    margin-right: 100px;
+}
+
+button {
+    margin-right: 100px;
+    font-size: 20px;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    border: none;
+}

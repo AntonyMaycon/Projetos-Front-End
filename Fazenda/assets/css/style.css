@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: rgba(27, 68, 54, 1);
+    padding: 20px;
+    padding-left: 80px;
+    height: 50px; 
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li { 
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-link:link {
+    text-decoration: none;
+}
+
+.menu-link:visited {
+    color: #FFFFFF;
+}
+
+.apresentacao {
+    background: url("../images/image\ 9.png");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+}
+
+.titulo {
+    color: white;
+    margin-bottom: 10px;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+
+span {
+    background-color: rgba(34, 82, 67, 0.8);
+    color:white;
+    padding: 30px;
+    border-radius: 1%;
+    display: inline-block;
+    width: 500px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.product {
+    width: 390px;
+    height: 390px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(80, 170, 90, 1);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: 2px solid green;
+    color: green;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-info {
+    text-align: left;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais {
+    text-align: left;
+}
+
+.logo-twitter {
+    width: 28px;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-links img {
+    max-width: 30px;
+}
+
+.copyright {
+    margin-top: 20px;
+}

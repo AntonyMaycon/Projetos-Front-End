@@ -1,0 +1,64 @@
+{
+  "alunos": [
+    {
+      "id": "1",
+      "nome": "Antony Maycon",
+      "email": "antony@exemplo.com"
+    },
+    {
+      "id": "2",
+      "nome": "Guilherme Krause",
+      "email": "guilherme@exemplo.com"
+    },
+    {
+      "id": "3",
+      "nome": "Vanessa Oliveira",
+      "email": "vanessa@exemplo.com"
+    },
+    {
+      "id": "4",
+      "nome": "Vinicius Damancini",
+      "email": "vinicius@exemplo.com"
+    },
+    {
+      "id": "5",
+      "nome": "Caio Oliveira",
+      "email": "caio@exemplo.com"
+    },
+    {
+      "id": "6",
+      "nome": "Lucas Fernandes",
+      "email": "lucas@exemplo.com"
+    },
+    {
+      "id": "7",
+      "nome": "Vitor Gabriel",
+      "email": "vitor@exemplo.com"
+    },
+    {
+      "id": "8",
+      "nome": "Marcio Junior",
+      "email": "marcio@exemplo.com"
+    },
+    {
+      "id": "9",
+      "nome": "Levi Freitas",
+      "email": "levi@exemplo.com"
+    },
+    {
+      "id": "10",
+      "nome": "Rubens Neto",
+      "email": "rubens@exemplo.com"
+    },
+    {
+      "id": "11",
+      "nome": "Kelve Oliveira",
+      "email": "kelve@exemplo.com"
+    },
+    {
+      "id": "12",
+      "nome": "Kamilla Fortunato",
+      "email": "kamilla@exemplo.com"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 24px; }
+
+p { line-height: 1.5; }
+
+.redes-sociais {
+    padding-top: 8px;
+}
+
+.redes-sociais > img {
+    padding: 8px;
+}
+
+.foto-perfil{
+    border: 3px #FFFFFF solid;
+    border-radius: 50%;
+    width: 122px;
+    height: 122px;
+}
+
+.menu-link:link {
+    color: #FFFFFF;
+    border-bottom: 2px gray solid;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+}
+
+.menu-link:visited {
+    color: #FFFFFF;
+    border-bottom: 2px cadetblue solid;
+}
+
+.menu-link:hover {
+    border-bottom: 2px #FFFFFF solid;
+}
+
+.menu-link:active {
+    color: blueviolet;
+    border-bottom: 2px blueviolet solid;
+}
+
+.menu {
+    background-color: cadetblue;
+    color: white;
+    padding: 8px;
+}
+.menu > ul {
+    list-style: none;
+}
+.menu > ul >li {
+    display: inline;
+}
+.apresentacao {
+    background: rgb(72,98,136);
+    background: linear-gradient(0deg, rgba(72,98,136,0.7) 0%, rgba(152,51,108,0.7)), url("../images/fundo.png");
+    color: aliceblue;
+    text-align: center;
+    height: 500px;
+    padding-top: 100px;
+}
+.secao {
+    margin: 16px;
+}

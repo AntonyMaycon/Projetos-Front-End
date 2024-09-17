@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(28, 110, 140, 1);
+    border-radius: 8px 8px 0 0;
+}
+
+form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#sala {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.mensagem {
+    margin: 4px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    color: white;
+    background-color: rgb(41, 95, 41);
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="datetime-local"]:focus,
+input[type="number"]:focus {
+    border-color: rgba(28, 110, 140, 1);
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(39, 65, 86, 1);
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 500px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #ddd;
+}
+
+th {
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(39, 65, 86, 1);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: rgba(39, 65, 86, 0.1);
+}
