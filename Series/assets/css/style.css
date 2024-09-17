@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-left: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 1440px;
+}
+
+.menu > ul {
+    list-style-type: none;
+    padding-left: 50px;
+}
+
+.menu > ul >li {
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-link:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline;
+    margin-left: 20px; 
+}
+
+span {
+    background-color: rgba(192, 57, 43, 1);
+    color:white;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.apresentacao {
+    background: url("../images/image\ 51.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+    height: 400px;
+}
+
+.titulos {
+    margin-left: 180px;
+    padding-top: 150px;
+}
+
+.titulo {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.subtitulo {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+form {
+    margin-left: 180px;
+}
+
+.pesquisar {
+    display: flex;
+}
+
+.escrever {
+    width: 933px;
+    height: 40px;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.buscar {
+    width: 153px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgba(192, 57, 43, 1);
+    color: white;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-top: 75px;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    margin-top: 75px;
+    margin-left: 70px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.botao1 {
+    border: 1px rgba(192, 57, 43, 1) solid;
+    background-color: rgba(192, 57, 43, 0.7);
+    color: white;
+    width: 36px;
+    height: 36px;
+    padding-top: 8px;
+}
+
+.botao2 {
+    border: 1px black solid;
+    width: 36px;
+    height: 36px;
+    padding-top: 8px;
+}
+
+.botao3 {
+    border: 1px black solid;
+    width: 36px;
+    height: 36px;
+    padding-top: 8px;
+}
+
+.botao4 {
+    border: 1px black solid;
+    width: 36px;
+    height: 36px;
+    padding-top: 8px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+    margin-top: 75px;
+    /* margin-left: 70px; */
+}
